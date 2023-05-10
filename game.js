@@ -33,7 +33,7 @@ $(document).keydown(function(){
 });
 
 
-$(document).on("tap",funstion(){
+$(document).on("tap",function(){
                startGame()
 });
 
