@@ -1,0 +1,120 @@
+body {
+  text-align: center;
+  background-color: #FEF2BF;
+}
+
+#game-title{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  5%;
+  color: #011F3F;
+}
+
+#highest-score{
+  font-family: 'Press Start 2P', cursive;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.btn {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.levels{
+  display: inline-block;
+
+}
+
+.level-btn{
+  
+  border: none;
+  color: white;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 50px;
+  margin: 5%;
+  border-radius: 161px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  border: 5px solid black;
+}
+
+#beginner{
+  background-color: #00D775; /* Green */
+
+}
+
+#intermediate{
+  background-color: #fa6400; /* Green */
+
+}
+
+#expert{
+  background-color: #e62143; /* Green */
+
+}
+
+.game-over{
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  width: 250px;
+  height: 250px;
+  border-radius: 0 250px 0 0;
+  background-color: rgba(196, 196, 196, 1);
+  background-color: red;
+}
+
+.green {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px 0 0 0;
+  background-color: rgba(196, 196, 196, 1);
+  background-color: green;
+}
+
+.blue {
+  width: 250px;
+  height: 250px;
+  border-radius: 0 0 250px 0px;
+  background-color: rgba(196, 196, 196, 1);
+  background-color: blue;
+}
+
+.yellow {
+  width: 250px;
+  height: 250px;
+  border-radius: 0 0 0 250px;
+  background-color: rgba(196, 196, 196, 1);
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}

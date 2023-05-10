@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h2 id="highest-score">Highest score: 0</h2>
+  <h1 id="game-title">Lets Play Simon</h1>
+  <h1 id="level-title">Choose your level:</h1>
+  <h1 id="level-title"></h1>
+  <div class="levels">
+    <div type="button" id="beginner" class="level-btn">Beginner</div>
+    <div type="button" id="intermediate" class="level-btn">Intermediate</div>
+    <div type="button" id="expert" class="level-btn">Expert</div>
+  </div>
+  <div class="container hidden">
+    <div lass="row">
+      <div type="button" id="green" class="btn green">
+      </div>
+      <div type="button" id="red" class="btn red">
+      </div>
+    </div>
+    <div class="row">
+      <div type="button" id="yellow" class="btn yellow">
+      </div>
+      <div type="button" id="blue" class="btn blue">
+      </div>
+    </div>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="game.js"></script>
+</body>
+
+</html>
