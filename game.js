@@ -28,14 +28,20 @@ $('.btn').click(function(e){
     checkUser(userClickedPattern.length -1);
 });
 
-$(document).keydown(function(){
+$(document).keydown(startGame());
+
+
+$(document).on("tap", startGame());
+
+
+
+function startGame(){
     if (!started && gameSpeed!=0){
         $('#game-title').text('Level '+level);
         nextSound();
         started = true;
     }
-
-});
+}
 
 // Functions
 function nextSound(){
