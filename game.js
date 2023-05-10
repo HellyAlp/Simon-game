@@ -33,8 +33,8 @@ $(document).keydown(function(){
 });
 
 
-$(document).on("ontouchend",function(){
-               startGame()
+$('.mobile-btn').on("click",function(){
+               startGame();
 });
 
 
@@ -46,6 +46,7 @@ function startGame(){
         started = true;
     }
 }
+
 
 // Functions
 function nextSound(){
