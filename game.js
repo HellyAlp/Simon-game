@@ -28,10 +28,14 @@ $('.btn').click(function(e){
     checkUser(userClickedPattern.length -1);
 });
 
-$(document).keydown(startGame());
+$(document).keydown(function(){
+    startGame();
+});
 
 
-$(document).on("tap", startGame());
+$(document).on("tap",funstion(){
+               startGame()
+});
 
 
 
