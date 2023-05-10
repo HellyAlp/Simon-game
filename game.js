@@ -33,7 +33,7 @@ $(document).keydown(function(){
 });
 
 
-$(document).on("tap",function(){
+$(document).on("ontouchend",function(){
                startGame()
 });
 
