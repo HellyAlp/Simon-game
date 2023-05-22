@@ -35,6 +35,7 @@ $(document).keydown(function(){
 
 $('.mobile-btn').on("click",function(){
                startGame();
+                $('.mobile-btn').addClass('hidden');
 });
 
 
